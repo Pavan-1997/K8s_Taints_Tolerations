@@ -1,5 +1,13 @@
 # K8s_Taints_Tolerations_Lables
 
+A taint marks a node with a specific characteristic, such as "gpu=true". By default, pods cannot be scheduled on tainted nodes unless they have a special permission called toleration. When a toleration on a pod matches with the taint on the node then only that pod will be scheduled on that node
+
+You define tolerations in the pod specification to let them bypass the taints.
+
+Labels group nodes based on size, type,env, etc. Unlike taints, labels don't directly affect scheduling but are useful for organizing resources.
+
+Taints and tolerations are powerful tools, but they have limitations. They cannot handle complex expressions like "AND" or "OR." 
+
 ---
 
 ```
