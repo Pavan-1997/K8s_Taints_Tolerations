@@ -1,4 +1,4 @@
-# K8s_Taints_Tolerations
+# K8s_Taints_Tolerations_Lables
 
 ---
 
