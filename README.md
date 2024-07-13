@@ -58,3 +58,29 @@ Now the Nginx pod is running
 `k get pods -o wide`
 
 ![image](https://github.com/user-attachments/assets/ce8fed22-fbbf-460f-b687-f900df94d8d7)
+
+---
+
+## Labels
+
+`k run nginx-new --image=nginx --dry-run=client -o yaml > nginx-new.yaml`
+
+In this File we add Labels as the one updated in GitHUb
+
+![image](https://github.com/user-attachments/assets/d38230b5-803a-433a-9aca-06af7962f614)
+
+`k describe pod nginx-new`
+
+![image](https://github.com/user-attachments/assets/a67eb748-846e-4896-948d-6ac32dc888f4)
+
+`k label node pavantest-worker gpu=false`
+
+`k get pods`
+
+![image](https://github.com/user-attachments/assets/143f71b9-c902-433f-b8d8-ac9efea8326f)
+
+`k get pods -o wide`
+ 
+![image](https://github.com/user-attachments/assets/5a5a0b0a-45d3-44c0-adfb-fc3f9c9be4fc)
+
+
