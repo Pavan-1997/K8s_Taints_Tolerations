@@ -58,6 +58,3 @@ Now the Nginx pod is running
 `k get pods -o wide`
 
 ![image](https://github.com/user-attachments/assets/ce8fed22-fbbf-460f-b687-f900df94d8d7)
-
-
-![image](https://github.com/user-attachments/assets/7bbae36e-66f1-4dad-82e5-20e1b45b3784)
